@@ -30,7 +30,6 @@ public class Main implements Observer{
 	public void iniciarJogo(){
 		
 		try {
-
 			/* Iniciando objetos de domínio */
 			Injector injectorBancoImobiliario = Guice.createInjector(new TabuleiroModule());
 			TabuleiroDirector tabuleiroDirector = injectorBancoImobiliario
